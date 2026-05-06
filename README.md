@@ -57,3 +57,34 @@ We then modify the questioning and guessing strategy to make the agent more stru
 ├── src/              # agent logic / helper code
 ├── results/          # outputs / screenshots / notes
 └── README.mdv
+
+
+## Iterative Model Development Log
+
+| Experiment | Modification | Observation | Outcome |
+|---|---|---|---|
+| Baseline | Original Gemma 7B starter notebook | Random and inconsistent questions | Weak reasoning performance |
+| Experiment 1 | Added strategic prompt engineering | Questions became more context-aware | Improved relevance |
+| Experiment 2 | Added structured few-shot examples | Better narrowing sequence | More logical questioning |
+| Experiment 3 | Added output sanitization | Removed unwanted prefixes and formatting artifacts | Cleaner outputs |
+| Experiment 4 | Added strategic reasoning constraints | Reduced vague and low-information questions | More efficient narrowing |
+
+---
+
+### Key Improvements Implemented
+
+- Prompt engineering for more strategic questioning
+- Few-shot learning examples for guided reasoning
+- Output sanitization to remove formatting artifacts
+- Context-aware narrowing strategy
+- Improved keyword guessing consistency
+
+---
+
+### Insights Gained
+
+- Weak prompts caused random and low-quality questions
+- Few-shot examples significantly improved logical flow
+- LLM outputs require post-processing for stable formatting
+- Strategic prompting improves narrowing efficiency in 20 Questions gameplay
+- Iterative refinement is important for improving LLM reasoning behavior
