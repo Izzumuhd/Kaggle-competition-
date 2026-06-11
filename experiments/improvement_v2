@@ -1,1 +1,7 @@
-
+few_shot_examples = [
+    "Is it a place?", "**yes**",
+    "Is it a country?", "**yes**",
+    "Is it located in Africa?", "**yes**",
+    "Is it known for wildlife or safaris?", "**yes**",
+    "**Tanzania**", "Correct!"
+]
