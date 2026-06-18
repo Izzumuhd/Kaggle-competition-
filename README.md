@@ -53,10 +53,10 @@ We then modify the questioning and guessing strategy to make the agent more stru
 ## 📂 Repository Structure
 ```bash
 .
-├── notebooks/        # Kaggle / Colab notebooks
-├── src/              # agent logic / helper code
-├── results/          # outputs / screenshots / notes
-└── README.mdv
+├── experiment/        
+├── report/              
+├── screenshots/          
+└── submission/
 
 
 
