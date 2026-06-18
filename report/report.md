@@ -70,6 +70,30 @@ The model followed the demonstrated reasoning process more closely.
 Improved output consistency and keyword guessing behavior.
 
 ---
+## Dataset Description
+
+The Kaggle LLM 20 Questions Competition does not provide a traditional machine learning dataset consisting of training and testing records. Instead, the competition operates through an interactive game environment where agents attempt to identify a hidden keyword within a maximum of 20 rounds.
+
+The hidden keywords are drawn from a predefined keyword repository maintained by the Kaggle environment. Each keyword belongs to one of several categories, including:
+
+* Person
+* Place
+* Thing
+
+During gameplay, the Questioner Agent generates strategic yes/no questions and keyword guesses, while the Answerer Agent responds only with "yes" or "no" based on the hidden keyword.
+
+The competition environment provides the following information to the agent during each turn:
+
+* Previous questions asked
+* Previous answers received
+* Current turn type (ask, guess, or answer)
+* Hidden keyword category (for the Answerer Agent only)
+
+Since the keyword repository is hidden from participants, model evaluation is performed through gameplay simulations and competition leaderboard performance rather than traditional train/test dataset metrics.
+
+Therefore, this project focuses on improving agent reasoning, prompt engineering, few-shot learning, and response generation strategies rather than conventional data preprocessing or feature engineering.
+
+---
 
 ## Experiment V3 – Output Sanitization
 
